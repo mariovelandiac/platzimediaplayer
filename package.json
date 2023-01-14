@@ -1,15 +1,15 @@
 {
-  "name": "@sparragus/platzimediaplayer",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@mariovelandiac/platzimediaplayer",
+  "version": "1.0.2",
+  "description": "Media player realizado para el curso de JS profesional de Platzi",
   "main": "lib/MediaPlayer.js",
   "scripts": {
     "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["mediaplayer", "javascript"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^3.5.3"
   }
